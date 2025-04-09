@@ -1,0 +1,141 @@
+/* src/app.css */
+.app {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    max-width: 600px;
+    margin: 0 auto;
+    background-color: #f7f7f7;
+    border-radius: 10px;
+}
+
+h1 {
+    font-size: 32px;
+    color: #333;
+}
+
+h2 {
+    font-size: 24px;
+    color: #333;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+button {
+    padding: 10px 20px;
+    margin: 10px 5px;
+    cursor: pointer;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+input {
+    padding: 8px;
+    margin: 10px 0;
+    width: 100%;
+    max-width: 400px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    font-size: 16px;
+}
+
+/* Selection and Question section styling */
+.selection, .quiz {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.answer-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+
+.quiz {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Loading state for the question */
+.loading {
+    font-size: 18px;
+    color: #555;
+    font-style: italic;
+}
+
+/* Styling for evaluation section */
+.evaluation {
+    padding: 20px;
+    background-color: #f3f3f3;
+    border-radius: 5px;
+    margin-top: 20px;
+    width: 100%;
+    text-align: center;
+}
+
+.evaluation h3 {
+    margin: 0;
+    color: green;
+}
+
+.evaluation p {
+    color: #444;
+    font-size: 16px;
+}
+
+/* Styling for subtopic buttons */
+.subtopic-selection {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+.subtopic-selection button {
+    padding: 10px 20px;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+}
+
+.subtopic-selection button:hover {
+    background-color: #218838;
+}
+
+/* Mobile Responsiveness */
+@media (max-width: 600px) {
+    .app {
+        padding: 10px;
+    }
+
+    button {
+        width: 100%;
+        padding: 12px;
+    }
+
+    input {
+        width: 100%;
+    }
+
+    .subtopic-selection button {
+        width: 100%;
+        padding: 12px;
+    }
+}
