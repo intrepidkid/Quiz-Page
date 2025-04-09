@@ -135,4 +135,4 @@ Open [http://localhost:3000](http://localhost:3000)
 
 ## 🤝 Credits
 
-Created by [Your Name Here] as a part of the AI/ML learning journey.
+Created by intrepidkid as a part of the AI/ML learning journey.
